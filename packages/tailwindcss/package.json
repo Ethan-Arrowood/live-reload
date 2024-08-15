@@ -1,0 +1,12 @@
+{
+    "name": "@arrowood.dev/live-reload-tailwindcss-plugin",
+    "description": "An @arrowood.dev/live-reload plugin for building TailwindCSS",
+    "version": "1.0.0",
+    "type": "module",
+    "main": "tailwindcss-plugin.js",
+    "dependencies": {
+        "autoprefixer": "^10.4.20",
+        "postcss": "^8.4.41",
+        "tailwindcss": "^3.4.9"
+    }
+}

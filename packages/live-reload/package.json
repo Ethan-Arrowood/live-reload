@@ -1,0 +1,17 @@
+{
+    "name": "@arrowood.dev/live-reload",
+    "description": "A simple live reload server for automatically refreshing an HTML page after local changes",
+    "version": "1.0.0",
+    "type": "module",
+    "bin": "./live-reload.js",
+    "main": "./live-reload.js",
+    "exports": ["./live-reload-script.html", "./live-reload.js"],
+    "dependencies": {
+        "@fastify/static": "^7.0.4",
+        "@fastify/websocket": "^10.0.1",
+        "fastify": "^4.28.1",
+        "fastify-plugin": "^4.5.1",
+        "pino-pretty": "^11.2.2",
+        "watcher": "^2.3.1"
+    }
+}

@@ -1,0 +1,5 @@
+{
+    "name": "live-reload-workspace",
+    "private": "true",
+    "workspaces": ["packages/live-reload", "packages/tailwindcss"]
+}
